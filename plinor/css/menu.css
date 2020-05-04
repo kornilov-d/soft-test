@@ -1,0 +1,167 @@
+@font-face {
+    font-family: London; /* Гарнитура шрифта */
+    src: url(/plinor/css/old_london/OldLondon.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: MoncB; /* Гарнитура шрифта */
+    src: url(/plinor/css/montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Monc; /* Гарнитура шрифта */
+    src: url(/plinor/css/montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    font-family: PF Regal, PF Regal Text Pro, Georgia, serif;
+    margin: 0 0;
+    background: rgb(242, 242, 242);
+    overflow-x: hidden;
+}
+
+
+
+.unvis{
+    display: none;
+}
+
+
+header {
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav_menu {
+    width: 97.6vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5vh 1.2vw 0.5vw 1.2vw;
+    color: #2574A9;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+    background: #FFFFFF;
+    border: 0.5px solid #E3E3E3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav_logo {
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+}
+
+.nav_logo a {
+    font-family: MoncB;
+    font-size: 24pt;
+    color: black;
+}
+
+.nav_tag {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: inherit;
+    text-align: center;
+    align-items: inherit;
+}
+
+.nav_setting {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    align-items: inherit;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.nav_setting a{
+    text-align: center;
+    margin-right: 1vw;
+    font-size: 16px;
+    color: #2574A9;
+}
+
+
+.nav_tag a{
+    margin: 1vw;
+    color: black;
+    border-bottom: 3px solid transparent;
+    padding-top: 29px;
+    padding-bottom: 28px;
+}
+
+.nav_tag .main{
+    border-bottom: 3px solid #2574A9;
+    color: #2574A9;
+}
+
+.nav_one {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_one:hover {
+    color: #2574A9;
+    transition-duration: 0.3s;
+}
+
+.hot_news {
+    width: 97.6vw;
+    height: 4vh;
+    position: relative;
+    top: 80px;
+    padding: 0.7vh 1.2vw 0.3vw 1.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.hot_grey a{
+    color: grey;
+}
+
+.hot_grey .hot_active:hover{
+    transition-duration: 0.3s;
+    color: black;
+}
+
+.hot_jump {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot_jump img {
+    width: 10%;
+    height: auto;
+}
+
+.hot_jump:hover {
+    color: rgb(17, 21, 127);
+}
+
+
+.nav_edge{
+    width: 18vw;
+}
+
+.nav_right{
+    float: right;
+}
+

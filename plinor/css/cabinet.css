@@ -1,0 +1,126 @@
+.cab_profile{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.cab_profile input{
+    width: auto;
+    min-width: 12vw;
+    border: 0;
+    padding: 0;
+    background: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-size: 0.8vw;
+}
+
+.cab_avatar{
+    background: gray;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+.cab_info{
+    width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.cab_settings{
+    padding: 2vw 0 0 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cab_full{
+    align-items: center;
+    cursor: pointer;
+}
+
+.cab_profile p{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.cab_profile .cab_fio{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cab_icon{
+    padding-right: 8px;
+    height: auto;
+    width: 1vw;
+}
+
+#cab_icon{
+    margin-right: 8px;
+}
+
+.cab_his{
+    padding-top: 2vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: 700;
+}
+
+.cab_history{
+    border: 0.1vw solid gray;
+    border-radius: 0.5vw;
+    background: white;
+    height: 20vw;
+    padding: 0.5vw 0.5vw;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.cab_io{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cab_profile .cab_full #cab_file{
+   width: 20vw;
+}
+
+.cab_profile .cab_full [value="Сохранить изменения"]{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.cab_profile .cab_full [value="Сохранить изменения"]:hover{
+    color: black;
+}
+
+.cab_full  select {
+    width: 8vw;
+    background: none;
+    border: 0;
+    font-size: 0.7vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: bold;
+}
+
+.cab_full option{
+    background: none;
+    border: 0;
+    font-size: 0.7vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, Arial;
+    font-weight: bold;
+}
+
+.cab_settings{
+    font-weight: 600;
+}

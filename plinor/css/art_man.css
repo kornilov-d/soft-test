@@ -1,0 +1,106 @@
+.art_man{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 35vw;
+    background: white;
+    border-radius: 0.2vw;
+    position: relative;
+}
+
+.art_man .ent_text {
+    width: auto;
+    text-align: right;
+    padding-right: 0.4vw;
+}
+
+
+.art_man input {
+    font-family: Monc;
+    font-size: 0.8vw;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.3vw;
+}
+
+.art_man [type='text'],.art_man [type='number'] {
+    padding-left: 0.4vw;
+    width: 7vw;
+    font-size: 0.6vw;
+    background: rgb(242, 242, 242);
+}
+
+.add_pult{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.add_button{
+    color: white;
+    background: rgb(17, 21, 127);
+    font-family: Monc;
+    font-size: 0.8vw;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.3vw;
+    width: 8vw;
+    height: 1.7vw;
+    margin: 0 1vw;
+}
+
+.add_button:hover{
+   color: #f4ed47;
+}
+
+.add_perpult{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_perpult img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.add_perpult div{
+    font-family: Monc;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.hid{
+    display: none;
+}
+
+.art_man select{
+    font-family: Monc;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.3vw;
+    padding-left: 0.4vw;
+    width: 7.5vw;
+    font-size: 0.6vw;
+    background: rgb(242, 242, 242);
+    height: 2vw;
+}
+.art_man option{
+    font-family: Monc, Arial;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.3vw;
+    padding-left: 0.4vw;
+    width: 7.5vw;
+    font-size: 0.6vw;
+    background: rgb(242, 242, 242);
+}
+
+.art_man textarea{
+    width: 12vw;
+    height: 3vw;
+    resize: none;
+}

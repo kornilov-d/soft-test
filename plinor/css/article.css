@@ -1,0 +1,285 @@
+
+ul {
+    list-style-type: none;
+}
+
+.article {
+    border-radius: 4px;
+    display: flex;
+    width: 45vw;
+    font-size: 0.8vw;
+    text-align: justify;
+    position: relative;
+    background: white;
+    padding: 0 0 0.5vw 0;
+
+}
+
+.artic_visual{
+    text-align: center;
+}
+
+.artic_visual img{
+    width: 40%;
+}
+
+.article hr {
+    width: 95%;
+    size: 1vw;
+    color: rgb(17, 21, 127);
+    opacity: 40%;
+}
+
+.article p, h1 {
+    margin: 0.4vw 1vw;
+}
+
+.article p {
+    text-indent: 1vw;
+}
+
+.article h1 {
+    font-size: 1.2vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+}
+
+.article h2 {
+    margin: 0.4vw 1vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    color: darkgray;
+}
+
+.attention {
+    border: 0.1vw dotted black;
+    background: #c0e4fe;
+    padding: 0.5vw 0.5vw;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1vw;
+}
+
+.textarea input {
+    padding: 0.5vw;
+    width: 50%;
+    font-size: 0.8vw;
+}
+
+.new_art {
+    width: 97%;
+    resize: vertical;
+    height: auto;
+    min-height: 12vw;
+    text-align: justify;
+    padding: 0.5vw;
+    text-indent: 1vw;
+    font-size: 0.8vw;
+}
+
+.textarea ul {
+    padding: 0;
+}
+
+.textarea ul ul {
+    display: flex;
+    margin: 0.5vw 0;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textarea ul .tag {
+    margin: 0.5vw 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 10vw;
+}
+
+.tag .tag_text input {
+    margin-top: -0.5vw;
+    width: 80%;
+    height: 100%;
+}
+
+.crest {
+    margin: 0 1vw;
+    width: 2vw;
+    height: 2vw;
+    background: url("../pic/orig/cancel.png");
+    background-size: auto 100%;
+
+}
+
+.tag_text {
+    width: 5vw;
+    position: relative;
+}
+
+.plus {
+    margin-top: 1vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    background: url("../pic/orig/plus.png");
+    background-size: 100% auto;
+}
+
+
+.textarea .vis_but {
+    margin: 1vw 0;
+    width: 10vw;
+    height: 3vw;
+    outline: none;
+    color: white;
+    background: rgb(17, 21, 127);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-size: 0.8vw;
+    letter-spacing: 2px;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    border: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.textarea .vis_but:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .4);
+}
+
+.textarea input[type=file]:before {
+    content: "Загрузить файл";
+    background: rgb(17, 21, 127);
+    font-family: Proxima Nova, Arial, Helvetica Neue, sans-serif;
+    font-size: 0.8vw;
+    color: white;
+}
+
+.artic_top {
+    display: flex;
+    flex-direction: row;
+    height: 1.8vw;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.artic_top div{
+    height: inherit;
+}
+
+.artic_top a{
+    width: 2vw;
+    height: 100%;
+    position: relative;
+}
+.artic_top a img {
+    padding: 0 1vw;
+    height: 100%;
+    width: auto;
+    float: right;
+    border-bottom: 0;
+}
+
+.artic_atten {
+    margin: 0.4vw 1vw;
+    border-radius: 8px;
+    background: rgba(180, 178, 178, 0.37);
+    padding: 0.5vw 0.5vw;
+    font-size: 10pt;
+    max-width: 25vw;
+    font-weight: bold;
+}
+
+.artic_atten td{
+    padding: 0.2vw 0.3vw;
+}
+
+.artic_atten td:nth-child(2n+1){
+    font-weight: 600;
+    text-align: right;
+}
+.artic_atten td:nth-child(2n){
+    font-weight: 500;
+    text-align: left;
+}
+
+.artic_atten .artic_input{
+    background: white;
+    padding-left: 6px;
+    border-radius: 2px;
+    border: 0;
+    font-size: 10pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: 500;
+}
+
+.artic_atten  select.artic_input{
+    width: 6vw;
+}
+
+.artic_atten option{
+    background: none;
+    border: 0;
+    font-size: 0.7vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif;
+    font-weight: bold;
+}
+
+.artic_top [type="image"]{
+    padding: 0 1vw;
+    height: 100%;
+    width: 2vw;
+    float: right;
+    border-bottom: 0;
+    cursor: pointer;
+}
+
+.article p{
+    width: 43vw;
+    position: relative;
+    padding: 0;
+}
+
+.article p .artic_textarea{
+    width: 95%;
+    min-height: 4vw;
+    margin: 0;
+    border: 0;
+    resize: vertical;
+    font-size: 0.8vw;
+    font-family: Monc;
+
+}
+
+#icon_view{
+    color: #2574A9;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+#icon_view:hover{
+    color: #11157f;
+}
+
+#fa_buttons{
+    border: none; /* Remove borders */
+    background-color: white;
+    color: #2574A9; /* White text */
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+#fa_buttons:hover{
+    color: #11157f;
+}
+
+

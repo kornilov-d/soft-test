@@ -1,0 +1,114 @@
+.mail_art{
+    width: 50%;
+}
+
+.mail_art input{
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.3vw;
+    font-size: 0.8vw;
+}
+
+.mail_art hr{
+   height: 0.05vw;
+    background: gray;
+    border: none;
+}
+
+.mail_all{
+    margin: 0;
+}
+
+.mail_dialog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0.5vw 1vw;
+    position: relative;
+}
+
+.mail_dialog:hover{
+    background: white;
+}
+
+.mail_dialog div{
+    margin: 0;
+}
+
+.mail_photo{
+    background: gray;
+    width: 5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+.mail_hat{
+    width: 42vw;
+   justify-content: space-between;
+}
+
+.mail_message{
+    margin: 0;
+    height: 2vw;
+}
+
+.mail_search{
+    letter-spacing : -.36em;
+}
+
+.mail_art .mail_small{
+     width: 8vw;
+    height: 2vw;
+    margin-left: 0;
+    border-radius: 0;
+    padding: 0;
+    border-top-right-radius: 0.3vw;
+    border-bottom-right-radius:0.3vw;
+    display: inline-block;
+
+ }
+
+.mail_art .mail_ss{
+    width: 20vw;
+    height: 2vw;
+    margin-left: 0;
+    border-radius: 0;
+    border-top-left-radius: 0.3vw;
+    border-bottom-left-radius:0.3vw;
+    display: inline-block;
+    padding-left: 0.5vw;
+
+}
+
+.mail_art .mail_big{
+    width: 12vw;
+    height: 2vw;
+}
+
+.mail_art [name='send']{
+    display: flex;
+    flex-direction: row;
+    letter-spacing : -.36em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.mail_art [name='send'] textarea{
+    width: 70%;
+    height: 6vw;
+    resize: none;
+}
+
+.mail_art [name='send'] .mail_small{
+    width: 10vw;
+    height: 6vw;
+}
+
+.mail_art .me{
+    background: white;
+}
